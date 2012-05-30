@@ -1,0 +1,220 @@
+/* ===== Primary Styles ========================================================
+   Author: Shajed Evan
+   ========================================================================== */
+
+   
+   /* General Style 
+      Applicable on any elements. Insert any global styling in this group
+   */
+   body{background:#F0F0F0 url("../img/body_background.jpg") repeat; text-shadow: 0px 1px 1px #FFF;}
+   h1{ font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 400;}
+   p{ font-size:1.231em; line-height:21px; }
+   blockquote{ border:0; margin:0; padding: 0; }
+   blockquote:before{ content: '\201C'; }
+   blockquote:after{ content: '\201D'; }
+   .carousel .item > img{ text-align:center; margin:0 auto; }
+   
+   /* Google Web Font Loader Classes */
+   .wf-loading h1 { visibility:visible; }
+   .wf-inactive h1{ visibility:visible;}
+   .wf-active h1 {font-family: 'Oleo Script',cursive, serif;}
+
+   /* Header Style */
+   #header{ display:block; height:70px; background:#333 url("../img/header_background.jpg") repeat;}
+   .logo{ display: block; padding-top:5px;}
+   .logo a{display: block; width:120px; height:62px; margin:auto; padding:auto; background:url("../img/logo.png") no-repeat; text-indent:-9999px; }
+
+   /* First Placeholder Style 
+    --------------------------
+   */
+   .first_placeholder{ margin-top:2em; margin-bottom:2em; text-align:center;}
+   .first_placeholder h1{ color: #362f2d; font-size:4.231em; line-height: 1em; margin-bottom:0.5em; margin-top:1em;}
+   .first_placeholder a{color: #cc5944; font-size:1.385em;}
+
+      /* Collapsible Box Style */
+      .first_placeholder .collapse{ visibility: hidden; }
+      .first_placeholder .collapsible_box{ width:60%;}
+      .first_placeholder .collapsible_box{ background:#DDD; background: rgba(222,222,222,0.5); border:1px solid #CCC; padding:0 1em; margin:1em auto; text-align:center;}
+      .first_placeholder .collapsible_box a.close{ opacity: 0.9; filter: alpha(opacity=90); }
+      .first_placeholder .collapsible_box h1{ font-size:1.8em; margin-top:1em; color: #CC5944;}
+      .first_placeholder .collapsible_box p{ font-size:1.2em; text-align:left; margin-bottom:1.5em; }
+      .first_placeholder .collapsible_box ul{ margin-bottom:1em; text-align:left; }
+      .first_placeholder .collapsible_box li{ list-style:none; padding:0.5em 1em; font-size:1.2em; }
+      .first_placeholder .collapsible_box .btn{ margin-bottom:1em;}
+
+   .first_placeholder form{margin-top:0em; text-align:center;}
+   .first_placeholder label{ text-align:center;}
+   .first_placeholder label.big{ font-size:2em; color: #818181; text-align:center; margin-bottom:0.5em; }
+   .first_placeholder p{ text-align:center; }
+   .first_placeholder p span{ color: #CC5944; }
+   .first_placeholder form input{ font-size:1.385em; color: #999; font-weight:normal; padding:10px 5px; box-shadow:0px 1px 1px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.5); }
+   .first_placeholder form .btn{ 
+      background:#CC5944;
+      background-color:#CC5944;
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#db4025), color-stop(25%, #db4025), to(#CC5944));
+      background-image: -webkit-linear-gradient(#db4025, #db4025 25%, #CC5944);
+      background-image: -moz-linear-gradient(top, #db4025, #db4025 25%, #CC5944);
+      background-image: -ms-linear-gradient(#db4025, #db4025 25%, #CC5944);
+      background-image: -o-linear-gradient(#db4025, #db4025 25%, #CC5944);
+      background-image: linear-gradient(#db4025, #db4025 25%, #CC5944);
+      background-repeat:repeat;
+      border:3px solid #CCC;
+      font-size:1.385em;
+      color: #FFF;
+      text-shadow: 0 1px 1px #f74d2f;
+      padding:7px;
+      margin-bottom:7px;
+    }
+
+    /* Carousel Slider */
+    .first_placeholder .slide{
+      vertical-align:middle;
+      margin:0 auto;
+      text-align:center;
+      max-height:375px;
+      overflow: hidden;
+    }
+
+    /* IE7, IE8 hacks for First Placeholder Elements */
+    .ie7 .first_placeholder form .btn,.ie8 .first_placeholder form .btn{ background-color:#CC5944 !important;}
+
+
+   /* Second Placeholder Style 
+    ---------------------------
+   */
+   .second_placeholder{margin-top:2em;}
+   .second_placeholder h1{text-align:center; font-size:2.769em; color: #cc5944; line-height:1.3em; margin-bottom:1em; }
+   .second_placeholder h2{ font-size:1.845em; font-weight:normal; line-height:1em; }
+   .second_placeholder p{ padding-top:5px; }
+
+      /* Featured Section Style */
+      .featured_one, .featured_two, .featured_three{ width:auto; height:36px; padding-left:45px; padding-bottom:0.5em; }
+      .featured_one{ background:url('../img/featured_icon_display.png') no-repeat left top; }
+      .featured_two{ background:url('../img/featured_icon_plus.png') no-repeat left top; }
+      .featured_three{ background:url('../img/featured_icon_rss.png') no-repeat left top; }
+
+      /* Twitter Widget */
+
+      .tweet,
+      .query {
+        color: #333;
+      }
+      .tweet{ padding:3em 0em; width:50%; margin:0 auto; }
+      .tweet h3{ font-weight:normal; text-align:center; }
+      .query{ padding: 1.5em 2em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; border-radius: 0.5em; background:#cc5944; background:rgba(204,89,68,0.3);text-shadow: 0px 1px 1px #FFF; box-shadow: inset 0px 1px 3px 1px rgba(000,000,000,0.5), 0px 1px 1px 1px #FFF; -webkit-box-shadow: inset 0px 1px 3px 1px rgba(000,000,000,0.5), 0px 1px 1px 1px #FFF; }
+      .ie7 .query,.ie8 .query{ background:#cc5944; }
+
+        .tweet_list {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          overflow-y: hidden;
+        }
+        
+          .tweet_list li {
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-bottom: 0.5em;
+            list-style-type: none;
+          }
+          
+            .tweet_list li a {
+            }
+
+           .tweet_list .tweet_box{ display: block; width:85%; float: right; text-align:left; }
+          .tweet_list .tweet_text{ display: block; font-size:1.2em; padding:0.8em 0em; }
+          .tweet_list .tweet_even {
+            background-color: #91E5E7;
+          }
+          
+          .tweet_list .tweet_avatar {
+            padding-right: 1em; float:left;
+          }
+          
+            .tweet_list .tweet_avatar img {
+              vertical-align: middle;
+              border:5px solid #BBB;
+              margin-top:0.8em;
+            }
+
+            .ie7 .tweet_list .tweet_avatar img,.ie8 .tweet_list .tweet_avatar img{ boder:0px; }
+
+    /* Footer Style */
+
+    #footer{ margin-top: 1em;padding: 2.5em 0 2.5em;border-top: 1px solid #CCC; color: #555;}
+    #footer p, #footer p.credit{ font-size:1em; margin-bottom: 0; line-height:18px; }
+    #footer p.html5{ margin:2em auto; text-align: center; }
+
+
+    /* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+    /* Landscape phones and down */
+  @media (max-width: 480px) {
+    .first_placeholder .collapsible_box{ width:95%; }
+    .tweet{ padding:2em 0em; width:96%; margin:0 auto; }
+    .tweet_list .tweet_box{ width:55%; }
+    .tweet_list .tweet_avatar{ padding-right:0em; }
+    #footer p.credit{ width:70%; }
+  }
+ 
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 768px) {
+    .first_placeholder .collapsible_box{ width:95%;}
+    .tweet{ padding:2em 0em; width:96%; margin:0 auto; }
+    .tweet_list .tweet_box{  width:70%; }
+    .tweet_list .tweet_avatar{ padding-right:0em; }
+   }
+ 
+  /* Portrait tablet to landscape and desktop */
+  @media (min-width: 768px) and (max-width: 980px) {
+    .tweet{ padding:2em 0em; width:70%; margin:0 auto; }
+    .tweet_list .tweet_box{  width:85%; }
+    .tweet_list .tweet_avatar{ padding-right:0em; }
+   }
+
+  @media (min-width: 980px) and (max-width: 1180px){
+    .tweet{ padding:2em 0em; width:70%; margin:0 auto; }
+    .tweet_list .tweet_box{  width:85%; }
+  }
+ 
+  /* Large desktop */
+  @media (min-width: 1200px) {
+
+   .second_placeholder h1{ padding:0 2.5em;}
+   .tweet{ padding:2em 0em; width:70%; margin:0 auto; }
+   .tweet_list .tweet_box{  width:85%; }
+
+   }
+
+/* =============================================================================
+   Print Styles
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
